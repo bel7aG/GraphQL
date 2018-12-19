@@ -7,7 +7,8 @@
   "author": "BelhassenGharsallah@gmail.com",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src/index.js"
+    "start-first": "babel-node src/basics/1-FirstStep.js",
+    "second": "babel-node src/basics/2-SecondStep.js"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
