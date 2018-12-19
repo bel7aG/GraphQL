@@ -7,12 +7,14 @@
   "author": "BelhassenGharsallah@gmail.com",
   "license": "MIT",
   "scripts": {
-    "start-first": "babel-node src/basics/1-FirstStep.js",
-    "second": "babel-node src/basics/2-SecondStep.js"
+    "one": "nodemon src/basics/1-one/index.js --exec babel-node",
+    "two": "nodemon src/basics/2-two/index.js --exec babel-node",
+    "three": "nodemon src/basics/3-one/index.js --exec babel-node"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "graphql-yoga": "1.16.7"
+    "graphql-yoga": "1.16.7",
+    "nodemon": "^1.18.9"
   }
 }

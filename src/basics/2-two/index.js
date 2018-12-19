@@ -27,7 +27,7 @@ const resolvers = {
       return true
     },
     salary() {
-      return null
+      return 312400
     }
   }
 }
